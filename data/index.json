@@ -1,0 +1,32 @@
+{
+ "configs": [
+  "/config.live.json",
+  "/lang/lang.ru.json"
+ ],
+ "title": "Главная",
+ "class":"col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6",
+ "content": [
+  {
+   "type": "link",
+   "title": "Конфигурация",
+   "action": "/page.htm?setup",
+   "class": "btn btn-block btn-danger"
+  },
+  {
+   "type": "h1",
+   "title": "Уровень влажности почвы: - {{SoilHum}}%"
+  },
+  {
+   "type": "h1",
+   "title": "Температура помещения - {{TempRoom}}℃."
+  },
+  {
+   "type": "h1",
+   "title": "Влажность помещения- {{HumRoom}}%."
+  },
+  {
+   "type": "h1",
+   "title": "Отправка(1-разрешено,0-запрещено) - {{configotpravka}}"
+  }
+ ]
+}
